@@ -1,0 +1,84 @@
+.hidden
+{
+	display: none;
+}
+
+body
+{
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.container
+{
+	margin: 0 auto;
+	max-width: 1140px;
+}
+
+.box
+{
+	height: 300px;
+	border-radius: 5px;
+	padding: 20px;
+	text-align: center;
+	margin: 10px;
+	flex: 1 1 200px;
+
+
+
+}
+
+.box1
+{
+	background-color: pink;
+}
+
+.box2
+{
+	background-color: red;
+}
+
+.box3
+{
+	display: none;
+}
+
+.box4
+{
+	display: none;
+}
+
+@media screen and (min-width: 641px){
+
+	.container
+	{
+		display: flex;
+		flex-direction: row;
+	}
+
+	.box1
+	{
+		background-color: blue;
+		color: white;
+	}
+
+	.box2
+	{
+		background-color: purple;
+		color: white;
+	}
+
+	.box3
+	{
+		display: block;
+		background-color: grey;
+		color: #fff;
+	}
+
+	.box4
+	{
+		display: block;
+		background-color: brown;
+		color: white;
+	}
+
+}
